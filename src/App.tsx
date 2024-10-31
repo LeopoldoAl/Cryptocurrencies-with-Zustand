@@ -1,3 +1,4 @@
+import CriptoSearchForm from './components/CriptoSearchForm'
 import './index.css'
 function App() {
   
@@ -6,11 +7,11 @@ function App() {
     <>
       <div className="container">
         <h1 className='app-title'>
-          <span>Cryptocurrency</span> coster
+          <span>Cryptocurrency</span> valuation
         </h1>
 
         <div className="content">
-
+          <CriptoSearchForm/>
         </div>
       </div>
     </>
